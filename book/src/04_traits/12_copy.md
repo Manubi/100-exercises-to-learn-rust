@@ -108,6 +108,7 @@ You can just derive it, like this:
 ```rust
 #[derive(Copy, Clone)]
 struct MyStruct {
-    field: u32,
+    field1: u32,
+    field2: u32,
 }
 ```
